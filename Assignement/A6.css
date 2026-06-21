@@ -1,0 +1,145 @@
+body{
+    background-image: url(./sharadesert.jpg);
+    background-size: cover;
+    padding-left: 80px;
+    /* padding-right: 80px; */
+    padding-top: 20px; 
+}
+.nav-bar{
+    display:flex;
+    /* justify: start; */
+    margin: 30px;
+    font-size: 15px;;
+}
+.element2{
+    display: flex;
+    justify-content:space-between ;
+    margin-left:1190px;
+}
+.element1 img{
+    height:80px;
+    width: 80px;
+}
+.element2 li{
+    display: inline-block;
+    justify-content: space-between;
+     margin-left: 30px; 
+    font-size:22px;
+    color:white;
+}
+
+.element2 img{
+    margin-top:8px;
+    margin-left: 40px;
+    height:40px;
+    width: 40px;
+}
+.content-container{
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+}
+.text1{
+    font-size:160px;
+    margin-top: 125px;
+    color:white;
+    font-weight: bolder;
+}
+.text2{
+    font-size: 17px;
+    color: white;
+}
+.cards1{
+    height:300px;
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+    background-image: url(./pic-1.png);
+    position: relative;
+    transition: ease;
+    transition-duration: 1s;
+    color:white;
+}
+.cards1 p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.cards1 p:nth-of-type(2){
+    font-size: 20px;
+    font-weight: normal;
+}
+.cards2{
+    height:300px;
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+    background-image: url(./pic-2.png);
+    position: relative;
+    transition: ease;
+    transition-duration: 1s;
+    color:white;
+}
+.cards2 p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.cards2 p:nth-of-type(2){
+    font-size: 20px;
+    font-weight: normal;
+}
+.cards3{
+    height:300px;
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+    background-image: url(./pic-3.png);
+    position: relative;
+    transition: ease;
+    transition-duration: 1s;
+    color:white;
+}
+.cards3 p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.cards3 p:nth-of-type(2){
+    font-size: 20px;
+    font-weight: normal;
+}
+.cards4{
+    height:300px;
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+    background-image: url(./pic-4.png);
+    position: relative;
+    transition: ease;
+    transition-duration: 1s;
+    color:white;
+}
+.cards4 p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.cards4 p:nth-of-type(2){
+    font-size: 20px;
+    font-weight: normal;
+}
+.element22{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+}
+button{
+    background-color: aliceblue;
+    padding: 10px 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+}
