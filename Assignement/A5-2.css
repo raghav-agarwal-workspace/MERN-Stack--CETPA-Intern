@@ -1,0 +1,46 @@
+body{
+    background-color: yellow;
+}
+.heading1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.animate-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    height:100px;
+    width: 100px;
+    background-color: green;
+    margin:10px;
+}
+.box1{
+    height:100px;
+    width: 100px;
+    background-color: green;
+    margin:10px;
+}
+.box1:hover{
+    width:250px;
+    transition-duration: 3s;
+}
+.box2{
+    height:100px;
+    width: 100px;
+    background-color: green;
+    margin:10px;
+}
+.box2:hover{
+    height:250px;
+    width:250px;
+    transition-duration: 3s;
+}
+.box3{
+    height:100px;
+    width: 100px;
+    background-color: green;
+    margin:10px;
+}

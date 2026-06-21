@@ -1,0 +1,27 @@
+.navbar{
+    height: 65px;
+    background-color: rgb(0, 61, 61);
+    display:flex;
+    justify-content: flex-start;
+}
+.links{
+    /*color: #fff;*/
+    display: inline-block;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 4px;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+.Logo{
+    background-color: blue;
+    border-radius: 50%;
+    height:50px;
+    align-items: center;
+    margin-right: 10px;
+    color:#FFF;
+    float:right ;
+}

@@ -1,0 +1,133 @@
+body{
+    background-color: yellow;
+}
+.heading1{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.animate-items{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin:20px;
+}
+.box{
+    background-color: #008080;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    animation-name: line1;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+@keyframes line1 {
+    0%{
+        transform: skewX(20deg);
+    }
+    50%{
+        transform: skewX(-20deg);
+    }
+    100%{
+        transform: skewX(20deg);
+    }
+}
+.box2{
+    background-color:#2F4F4F ;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    animation-name: line2;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+@keyframes line2 {
+    0%{
+        transform: skewY(20deg);
+    }
+    50%{
+        transform: skewY(-20deg);
+    }
+    100%{
+        transform: skewY (20deg);
+    }
+}
+.box3{
+    background-color:#008080 ;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    animation-name: line3;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+@keyframes line3 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.box4{
+    background-color:#87CEEB ;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    animation-name: ani-box4;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+@keyframes ani-box4 {
+    0% {
+    transform: scaleY(1.0);
+    }
+    50% {
+        transform: scaleY(0.5);
+    }
+    100% {
+        transform: scaleY(1.0);
+    }   
+}
+.box5{
+    background-color:maroon ;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    animation-name: ani-box5;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+@keyframes ani-box5 {
+    0% {
+    transform: scaleX(1.0);
+    }
+    50% {
+        transform: scaleX(0.5);
+    }
+    100% {
+        transform: scaleX(1.0);
+    }   
+}
+.box6{
+    background-color:green ;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    animation-name: ani-box6;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+@keyframes ani-box6 {
+    0% {
+    transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(90deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }   
+}
+

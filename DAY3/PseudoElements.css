@@ -1,0 +1,21 @@
+/* .card{
+    background-color: cyan;
+    box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
+h1::before{
+    content: "Helllo";
+}
+/* p::first-letter{
+     font-size: 50px;
+} */
+/* ::marker{
+    color: red;
+    /* background-image: url(./OIP.webp);
+    font-size: 30px;
+}*/ 
+div:nth-child(even){
+    background-color: yellowgreen;
+}

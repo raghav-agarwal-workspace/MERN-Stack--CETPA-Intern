@@ -1,0 +1,43 @@
+
+h1{
+    color: red;
+}
+h2{
+    color: rgb(0, 255, 8);
+    font-style: italic;
+}
+.change1{
+    background-color: yellow;
+    font-weight: bold;
+}
+.change2{
+    text-decoration: line-through;
+}
+.point4{
+    font-style: italic;
+    text-decoration: underline;
+}
+.part2{
+    list-style-type: disc;
+    color: brown;
+    letter-spacing: 2px;
+}
+.p1{
+    color:brown;
+    font-size: 25px;
+}
+.p2{
+    color:brown;
+    font-size: 15px;
+}
+.p3{
+    color:brown;
+    font-size: 25px;
+    font-style: italic;
+}
+.p4{
+     background-color: yellow;
+     color:brown;
+     width:200px;
+
+}

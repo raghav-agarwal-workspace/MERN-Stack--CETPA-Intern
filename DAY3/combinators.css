@@ -1,0 +1,16 @@
+/* ( ) DESCDENDENT Selector */
+/* div p{
+    background-color: aquamarine;
+} */
+/* (>) Child Selector */
+/* div >p{
+    background-color: brown;
+} */
+/* (+) Adjacent Selector */
+div +p{
+    background-color: red;
+}
+/* (~)  General Sibling  */
+div ~p{
+    background-color: green;
+}

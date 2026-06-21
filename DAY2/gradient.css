@@ -1,0 +1,11 @@
+.main{
+    height: 500px;
+    width: 500px;
+    border-radius:50% ;
+    background-color: green;
+    background-image: conic-gradient(
+        red 0% 33.3%,
+        green 33.3% 66.6%,
+        blue 66.6% 100%    
+    );
+}

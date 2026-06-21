@@ -1,0 +1,12 @@
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: 900;
+    text-decoration-line: line-through underline overline; 
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 2px;  
+}

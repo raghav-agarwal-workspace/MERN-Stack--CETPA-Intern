@@ -1,0 +1,42 @@
+.main{
+    height:200px;
+    width: 200px;
+    background-color: green;
+    /* transition-duration: 3s; */
+    /*this command is for transition delay*/
+    /* transition-delay: 2s; */
+    position: relative;
+    border-radius: 50%;
+    animation-name: Raghav;
+    animation-duration: 10s ;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes Raghav{
+    0%{
+        left:0;
+        top:0;
+    }
+    25%{
+        left:500px;
+        top:0;
+    }
+    50%{
+        left:500px;
+        top: 500px;
+    }
+    75%{
+        left:0;
+        top:500px
+    }
+    100%{
+        left: 0;
+        top:0;
+    }
+}
+/* .main:hover{
+    width : 300px;
+    height: 250px;
+    background-color: yellow;
+    transition-duration: 3s;
+} */

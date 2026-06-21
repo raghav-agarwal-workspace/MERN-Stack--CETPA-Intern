@@ -1,0 +1,27 @@
+.main{
+    display:flex;
+    /*flex-direction : row;*/
+    /*padding:10px;*/
+    /*justify-content: space-evenly;*/
+    color:#fff;
+    flex-wrap: wrap-reverse;
+    }
+.card1{
+    height:100px;
+    width : 100px;
+    margin:10px;
+    background-color: red;
+}
+.card2{
+    height:100px;
+    width : 100px;
+    margin:10px;
+    background-color: rgb(2, 112, 48);
+}
+
+.card3{
+    height:100px;
+    width : 100px;
+    margin:10px;
+    background-color: rgb(0, 38, 255);
+}

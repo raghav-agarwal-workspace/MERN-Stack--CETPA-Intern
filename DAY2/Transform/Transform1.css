@@ -1,0 +1,7 @@
+.main{
+    height: 300px;
+    width: 500px;
+    background-color: green;
+    /*transform :rotateY(180deg);*/ 
+    transform: scaleY(-0.5);
+}
